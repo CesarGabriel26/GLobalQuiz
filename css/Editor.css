@@ -1,0 +1,169 @@
+#Pergunta {
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    color: var(--Preto);
+    text-align: center;
+    outline: none;
+}
+
+header {
+    background: var(--Roxo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background: var(--Footer);
+}
+
+main {
+    height: calc(100% - 200px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+.Perguntas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Perguntas .Bottom,
+.Perguntas .top {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Resposta input {
+    width: 100%;
+    height: 100%;
+}
+/**/
+.Respostas {
+    width: 50%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.MarcarCerto {
+    position: absolute;
+    width: 70px;
+    height: 40px;
+    background: gray;
+    left: 40%;
+    top: -40px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transition: .5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MarcarCerto input[type=radio] {
+    border: 0px;
+    width: 100%;
+    height: 2em;
+}
+/**/
+.Resposta {
+    height: 100px;
+    width: 90%;
+    display: flex;
+    border: none;
+    outline: none;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.Respostas:hover .MarcarCerto{
+    top: 0;
+}
+
+.Perguntas .Bottom {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Respota0 {
+    background: var(--Azul);
+    color: var(--Branco);
+}
+
+#Respota1 {
+    background: var(--Salmao);
+    color: var(--Branco);
+    margin-left: 60px;
+}
+
+#Respota2 {
+    background: var(--Rosa);
+    color: var(--Branco);
+}
+
+#Respota3 {
+    background: var(--Roxo);
+    color: var(--Branco);
+    margin-left: 60px;
+}
+
+#imagem {
+    margin-bottom: 40px;
+}
+
+/*Ferramentas no footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Ferramentas button {
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    padding: 0;
+    background: transparent;
+    border: none;
+    transition: .2s ease-in-out;
+}
+
+.Ferramentas button ion-icon {
+    color: var(--Amarelo);
+}
+
+.Ferramentas button:hover {
+    background: var(--button_Hover);
+}
+
+#imagem {
+    min-height: 225px;
+    min-width: 488px;
+    color: black;
+    border: 2px solid var(--Amarelo);
+    cursor: pointer;
+}
+
+#imagemINP {
+    position: absolute;
+    top: -1000px;
+
+}
