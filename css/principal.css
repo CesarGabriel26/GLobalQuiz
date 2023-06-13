@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+body{
+    background-color: #E0DAED;
+}
+
+.cabecalho{
+    background-color: #823679;
+
+    display: flex;
+    padding: 20px;
+    box-shadow: 0px 0px 15px black;
+    justify-content: space-between;
+   text-align: end;
+}
+
+.img-cabecalho{
+    width: 80px;
+    margin-right: 30px;
+}
+
+.botao1{
+    width: 80px;
+    height: 35px;
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    border-radius: 30px;
+    background-color: #F9D949;
+    
+   
+}
+
+.botao2{
+    width: 80px;
+    height: 35px;
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    border-radius: 30px;
+    background-color: #F35D5D;
+    
+   
+}
+.botoes{
+    text-align: end;
+}
+
+.btenter{
+    border-radius: 30px;
+    width: 200px;
+    height: 90px;
+    background-color: #C9416F  ;
+    color: white;
+    text-align: center;
+}
+.jogar{
+    text-align: center;
+    margin-top: 150px;
+}
